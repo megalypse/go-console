@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"github.com/DrSmithFr/go-console/output"
 	"github.com/DrSmithFr/go-console/question/answers"
+	"github.com/megalypse/go-console/helper"
 	"golang.org/x/term"
 	"io"
 	"strings"
@@ -66,7 +67,7 @@ func (h *Helper) doAsk(question QuestionBasicInterface) (string, error) {
 	var rawText string
 
 	if question.IsHidden() {
-		bytes, _ := term.ReadPassword(syscall.Stdin)
+		bytes, _ := term.ReadPassword(helper.Syscall(syscall.Stdin))
 		rawText = string(bytes)
 		h.out.Println("")
 	} else {

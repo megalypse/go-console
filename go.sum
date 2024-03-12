@@ -1,3 +1,5 @@
+github.com/DrSmithFr/go-console v0.0.0-20240213203601-0efc7b6b93db h1:tDg0Ouv1dmJd2iqvVTZfbpr/GhFHVfNEF7C9hezCaxI=
+github.com/DrSmithFr/go-console v0.0.0-20240213203601-0efc7b6b93db/go.mod h1:5x/X74DheJJ9M5loG5aEZIWMciC3q0ohxo1jdqqj25s=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
